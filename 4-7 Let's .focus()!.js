@@ -1,0 +1,16 @@
+$(document).ready(function()
+    {
+    $('input').focus(function()
+        {
+        $(this).css(
+            {
+            'outline-style':'solid',
+            'outline-color':'#FF0000'
+            });
+        }
+    ).blur(function()
+        {
+        $(this).css('outline-style','none');
+        }
+    );
+});
